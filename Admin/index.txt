@@ -1,0 +1,16 @@
+Steps to Send your project(repo) to git hub account
+
+1. open the git bash type (git init) - it will create a .git folder in hidden format
+
+2. type (git add .) to add all of your files 
+
+3. type (git commit -m "adding files") to add files to commit(making ready to push)
+
+4. create a new repositiory 
+
+5. type (git remote add origin https://github.com/yourusername/your-repo-name.git) to set url of your created repo
+
+6. type (git push -u origin master) to send local file to git hub account , refresh github repo page
+
+7. visit site https://rawgit.com/ , give your github repo url in textbox and go to 'Use this URL in production' copy url from textbox
+and paste it in browser
