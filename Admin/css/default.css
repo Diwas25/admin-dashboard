@@ -80,6 +80,39 @@ html, body{
 }
 #side-menu .link > ul > li{
 	padding-bottom:10px;
+	
+}
+#side-menu .user-panel{
+	white-space: nowrap;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    padding: 10px;
+}
+#side-menu .user-panel>.image>img {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+}
+#side-menu .user-panel>.info {
+    padding: 5px 5px 5px 15px;
+    line-height: 1;
+    position: absolute;
+    left: 55px;
+	color:#fff;
+}
+#side-menu .user-panel > .info a { 
+text-decoration: none;
+    padding-right: 5px;
+    margin-top: 3px;
+    font-size: 11px;
+	padding: 0px 0px;
+}
+.user-panel > .info > a > .fa{
+margin-right: 3px;
+}
+.m-l-60{
+	margin-left:60px;
 }
 
 #side-menu .glyphicon{
